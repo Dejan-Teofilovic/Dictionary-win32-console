@@ -3,16 +3,16 @@
 int main()
 {
 	string key , key2;
-	string arrayW[] = {"hello","how","are","you","i","hope","you","are","fine","world","what","so","ever" ,"0"};
-	string arrayM[] = {"hello","how","are","you","i","hope","you","are","fine","world","what","so","ever" ,"0"};
-	string arrayD[] = {"hello","how","are","you","i","hope","you","are","fine","world","what","so","ever" ,"0"};
+	string arrayW[] = {"aback","Abaddon","abrupt","accuracy","acme","ADC","adit","0"};
+	string arrayM[] = {"behind","hell","sudden and unexpected","exactness or precision","the highest point or period (of achievement, success etc.)","analogue-digital converter","a horizontal entrance or passage in a mine","0"};
+	string arrayD[] = {"adjective","noun","adjective","noun","noun","abberivation","noun","0"};
 	treeNode *tmp;
 	treeNode *root = new treeNode(arrayW[0],arrayM[0],arrayD[0]);
 	for(int i=1 ; arrayW[i]!= "0" ; i++)
 	{
-		insert(root,arrayW[i],arrayW[i],arrayW[i]);
+		insert(root,arrayW[i],arrayM[i],arrayD[i]);
 	}
-	cout<<"Word" << setw(20) << "Meaning"<<setw(20) << "Grammer "<< endl << endl;
+	
 	printDictionary(root);
 
 	do
@@ -54,7 +54,7 @@ int main()
 		}
 		else if(key == "s")
 		{
-			cout<<"Word" << setw(20) << "Meaning"<<setw(20) << "Grammer "<< endl << endl;
+			
 			printDictionary(root);
 		}
 		else if(key == "f")

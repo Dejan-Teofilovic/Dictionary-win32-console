@@ -18,7 +18,8 @@ void treeNode::setData(string w,string m, string d)
 }
 void treeNode::DisplayWordMeaning()
 {
-	cout << word << setw(20) << meaning << setw(20) << description << endl ;
+	cout << "Word        : "  << word << "\n" << "Meaning     : "  << meaning << "\n" << "Description : "  << description << endl ;
+	cout << "_____________________________________" << endl;
 }
 string treeNode::getWord()
 {

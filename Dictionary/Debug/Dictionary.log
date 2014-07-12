@@ -1,26 +1,23 @@
-﻿Build started 7/11/2014 1:27:55 PM.
-     1>Project "C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Dictionary\Dictionary.vcxproj" on node 2 (build target(s)).
+﻿Build started 7/12/2014 4:53:53 PM.
+     1>Project "C:\Users\Misbah\Documents\GitHub\Dictionary\Dictionary\Dictionary.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Dictionary.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp treeNode.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt treeNode.cpp
          treeNode.cpp
-         main.cpp
-     1>c:\users\ahmed\desktop\software projects\dictionary\dictionary\dictionary\main.cpp(9): warning C4101: 'tmp' : unreferenced local variable
-         Generating Code...
-     1>c:\users\ahmed\desktop\software projects\dictionary\dictionary\dictionary\treenode.cpp(94): warning C4715: 'Find' : not all control paths return a value
+     1>c:\users\misbah\documents\github\dictionary\dictionary\treenode.cpp(95): warning C4715: 'Find' : not all control paths return a value
        Link:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dictionary.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.lib" /MACHINE:X86 Debug\main.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dictionary.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.lib" /MACHINE:X86 Debug\main.obj
          Debug\treeNode.obj
-         LINK : C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.exe not found or not built by the last incremental link; performing full link
-         Dictionary.vcxproj -> C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.exe
+         LINK : C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.exe not found or not built by the last incremental link; performing full link
+         Dictionary.vcxproj -> C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.exe
        Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Debug\Dictionary.exe;#1" /manifest Debug\Dictionary.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Misbah\Documents\GitHub\Dictionary\Debug\Dictionary.exe;#1" /manifest Debug\Dictionary.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Debug\Dictionary.unsuccessfulbuild".
          Touching "Debug\Dictionary.lastbuildstate".
-     1>Done Building Project "C:\Users\Ahmed\Desktop\software projects\Dictionary\Dictionary\Dictionary\Dictionary.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Misbah\Documents\GitHub\Dictionary\Dictionary\Dictionary.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:07.71
+Time Elapsed 00:00:00.73
